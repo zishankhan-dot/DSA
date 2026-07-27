@@ -12,6 +12,7 @@ import java.util.Arrays;
 
     }
 
+    
     //helper function to sort the array
     private static void sort(int[] arr,int low,int high){
         //base case to return
@@ -77,7 +78,6 @@ class Main{
         
         System.out.println("Before sorting: " + Arrays.toString(exampleArray));
         
-        // 2. Call your public entry point method
         sortArray.quickSort(exampleArray);
         
         System.out.println("After sorting:  " + Arrays.toString(exampleArray));
