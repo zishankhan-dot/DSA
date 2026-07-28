@@ -56,7 +56,7 @@
 
 class Main {
     public static void main(String[] args) {
-Sort s1=new Sort();
+HeapSort s1=new HeapSort();
 int[] arr= {2,1,5,4,6,7,3,8};
 s1.mergeSort(arr);
 for (int i =0;i<arr.length;i++){
