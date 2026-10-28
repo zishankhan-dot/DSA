@@ -1,3 +1,5 @@
+package Sort.Java;
+
  class Sort{
   
   void merge(int []arr,int low, int mid, int high){
@@ -48,15 +50,12 @@
          }
      }
     
- }   
- }
-
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
+ };
+ };
 
 class Main {
     public static void main(String[] args) {
-HeapSort s1=new HeapSort();
+Sort s1=new Sort();
 int[] arr= {2,1,5,4,6,7,3,8};
 s1.mergeSort(arr);
 for (int i =0;i<arr.length;i++){

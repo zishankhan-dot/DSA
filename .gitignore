@@ -1,3 +1,4 @@
 Main*
 *.exe
 *.class
+*a.out

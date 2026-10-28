@@ -1,3 +1,4 @@
+package LinkedList;
 class singleLinkedList<t>{
     static class  Node<t>{
         t value;
